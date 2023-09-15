@@ -236,6 +236,10 @@ section.video-section .left p {
 .section-three .title p {
     font-size: 1.5em;
     margin-bottom: 5rem;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 4px;
 }
 
 .section-three .cards {
@@ -266,4 +270,148 @@ section.video-section .left p {
 .section-three .card:hover {
     opacity: 0.8;
     cursor: pointer;
+}
+
+/* section four | video section */
+
+.section-four.video-section{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.section-four .right {
+  order: 1;
+}
+
+.section-four .left{
+  order: 2;
+  padding-left: 9rem;
+}
+
+/* section five */
+span.price-line-through{
+  text-decoration: line-through;
+}
+
+.section-three.five button {
+  border-radius: 25px;
+  margin-bottom: 5rem;
+}
+
+.section-six {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 6.5rem;
+}
+.section-six h1 {
+  font-size: 3em;
+  margin: 5rem 0 1rem 0;
+}
+
+.section-six p {
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 50%;
+}
+
+.section-six .cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-six .card h3 {
+  font-size: 1.5em;
+  margin: 0.5rem 0;
+}
+.section-six .card p {
+  margin-bottom: 3rem;
+}
+.section-six .card img {
+  margin-top: 3.5rem;
+  width: 250px;
+}
+
+/* Section Seven */
+.section-seven {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6.5rem;
+  background-image: url(./assets/bg-1.jpg);
+  position: relative;
+  z-index: 2;
+}
+
+.section-seven .overlay {
+  z-index: 1;
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  background: #ffae00;
+}
+
+.section-seven .number-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primary-text-color);
+  z-index: 3;
+}
+
+.section-seven .number-card p {
+  font-size: 1.5em;
+  margin: 1rem 0;
+}
+
+.section-seven .number-card h2 {
+  font-size: 2em;
+}
+
+
+/* section eight */
+
+.section-eight {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 6.5rem;
+}
+
+.section-eight h1 {
+  font-size: 3.5em;
+  margin: 4rem 0 1rem 0;
+}
+
+.section-eight p.para {
+  font-size: 1.5em;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-eight .cards {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  /* overflow:hidden; */
+}
+
+.section-eight .card {
+  width: 350px;
+  height:500px;
+  background: red;
+  margin-bottom: 3rem;
+}
+.section-eight img {
+  width: 350px;
 }
