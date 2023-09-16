@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 button {
   padding: 0.7rem 1rem;
   border: none;
@@ -384,34 +388,154 @@ span.price-line-through{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 6.5rem;
+  padding: 0rem 6.5rem;
+  padding-bottom: 3rem;
 }
 
 .section-eight h1 {
   font-size: 3.5em;
-  margin: 4rem 0 1rem 0;
+  margin: 6rem 0 2rem 0;
 }
 
 .section-eight p.para {
   font-size: 1.5em;
   width: 50%;
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .section-eight .cards {
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  /* overflow:hidden; */
 }
 
 .section-eight .card {
   width: 350px;
-  height:500px;
-  background: red;
+  height:565px;
   margin-bottom: 3rem;
+  cursor: pointer;
+}
+
+.section-eight .card:hover {
+  opacity: 0.8;
+}
+
+.section-eight .card .post {
+  border: 1px solid blue;
+  border-top: none;
+  box-shadow: 5px 5px 10px -5px blue;
+  padding: 1rem 1.5rem;
+}
+
+.section-eight .card h2 {
+  margin: 0.5rem 0;
+}
+
+.section-eight .card span.date {
+  color: #0000ff;
+  margin: 0 0 1rem 0;
+  display: block;
+}
+
+.section-eight .card .post p {
+  margin: 0.5rem 0;
+  border-left: 2px solid rgb(160, 159, 159); 
+  padding-left: 10px;
+}
+
+.section-eight .card .post a {
+  display: block;
+  margin-top: 0.7rem;
+  color: rgb(0, 0, 255);
 }
 .section-eight img {
   width: 350px;
+}
+
+
+/* Footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--primary-dark-bg);
+  padding: 6.5rem;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+
+
+footer .cta {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .newsletter {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+footer .newsletter h1 {
+  font-size: 2.5em;
+}
+
+footer .newsletter p {
+  margin: 1rem 0;
+  font-size: 1.2em;
+}
+
+footer .input {
+  display: flex;
+  /* align-items: center; */
+  margin: 1rem 0;
+  width: 40%;
+  height: 50px;
+  border: 1px solid #fff;
+}
+
+footer .input input {
+  width: 70%;
+  padding: 5px;
+  border: none;
+}
+
+footer .input input:focus {
+  outline: none;
+}
+
+
+footer .input a {
+  width: 30%;
+  background: #0000ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 8px;
+}
+
+footer .newsletter .social-media {
+  margin: 1rem 0;
+}
+
+footer .newsletter .social-media img {
+  width: 40px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+footer h2 {
+  font-size: 1.7em;
+}
+
+footer ul li {
+  margin: 1.3rem 0;
+  font-size: 1.1em;
 }
