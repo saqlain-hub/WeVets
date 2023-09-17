@@ -233,52 +233,51 @@ section.video-section .left p {
 }
 
 .section-three .title h1 {
-    margin: 5rem 0 1rem 0;
-    font-size: 3.5em;
+  margin: 5rem 0 1rem 0;
+  font-size: 3.5em;
 }
 
 .section-three .title p {
-    font-size: 1.5em;
-    margin-bottom: 5rem;
-    width: 60%;
-    margin-right: auto;
-    margin-left: auto;
-    letter-spacing: 4px;
+  font-size: 1.5em;
+  margin-bottom: 5rem;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 4px;
 }
 
 .section-three .cards {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-three .card img {
-    width: 350px;
-    border: 5px solid #fff;
+  width: 350px;
+  border: 5px solid #fff;
 }
 .section-three .card {
-    width: 350px;
+  width: 350px;
 }
 
-
 .section-three .card h2 {
-    margin: 1.5rem 0;
-    font-size: 2.5em;
+  margin: 1.5rem 0;
+  font-size: 2.5em;
 }
 
 .section-three .card p {
-    margin-bottom: 5rem;
-    font-size: 1.4em;
-    padding: 0 1rem;
+  margin-bottom: 5rem;
+  font-size: 1.4em;
+  padding: 0 1rem;
 }
 .section-three .card:hover {
-    opacity: 0.8;
-    cursor: pointer;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
 /* section four | video section */
 
-.section-four.video-section{
+.section-four.video-section {
   width: 100%;
   justify-content: space-between;
 }
@@ -287,13 +286,13 @@ section.video-section .left p {
   order: 1;
 }
 
-.section-four .left{
+.section-four .left {
   order: 2;
   padding-left: 9rem;
 }
 
 /* section five */
-span.price-line-through{
+span.price-line-through {
   text-decoration: line-through;
 }
 
@@ -363,7 +362,7 @@ span.price-line-through{
   background: #ffae00;
 }
 
-.section-seven .number-card{
+.section-seven .number-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -379,7 +378,6 @@ span.price-line-through{
 .section-seven .number-card h2 {
   font-size: 2em;
 }
-
 
 /* section eight */
 
@@ -412,7 +410,7 @@ span.price-line-through{
 
 .section-eight .card {
   width: 350px;
-  height:565px;
+  height: 565px;
   margin-bottom: 3rem;
   cursor: pointer;
 }
@@ -440,7 +438,7 @@ span.price-line-through{
 
 .section-eight .card .post p {
   margin: 0.5rem 0;
-  border-left: 2px solid rgb(160, 159, 159); 
+  border-left: 2px solid rgb(160, 159, 159);
   padding-left: 10px;
 }
 
@@ -452,7 +450,6 @@ span.price-line-through{
 .section-eight img {
   width: 350px;
 }
-
 
 /* Footer */
 
@@ -467,7 +464,6 @@ footer {
 footer a {
   color: #fff;
 }
-
 
 footer .cta {
   flex: 2;
@@ -510,7 +506,6 @@ footer .input input:focus {
   outline: none;
 }
 
-
 footer .input a {
   width: 30%;
   background: #0000ff;
@@ -537,5 +532,5 @@ footer h2 {
 
 footer ul li {
   margin: 1.3rem 0;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
